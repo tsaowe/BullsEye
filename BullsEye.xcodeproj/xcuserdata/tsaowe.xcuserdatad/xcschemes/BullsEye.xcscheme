@@ -107,6 +107,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "BullsEye"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

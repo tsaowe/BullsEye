@@ -13,6 +13,7 @@
 		3F9330991B58AC76009224D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9330981B58AC76009224D0 /* Images.xcassets */; };
 		3F93309C1B58AC76009224D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F93309A1B58AC76009224D0 /* LaunchScreen.xib */; };
 		3F9330A81B58AC76009224D0 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9330A71B58AC76009224D0 /* BullsEyeTests.swift */; };
+		3FDBB5471B5E0FCC00B09F7A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBB5461B5E0FCC00B09F7A /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3F9330A11B58AC76009224D0 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9330A61B58AC76009224D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F9330A71B58AC76009224D0 /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
+		3FDBB5461B5E0FCC00B09F7A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				3F9330911B58AC76009224D0 /* AppDelegate.swift */,
 				3F9330931B58AC76009224D0 /* ViewController.swift */,
 				3F9330951B58AC76009224D0 /* Main.storyboard */,
+				3FDBB5461B5E0FCC00B09F7A /* AboutViewController.swift */,
 				3F9330981B58AC76009224D0 /* Images.xcassets */,
 				3F93309A1B58AC76009224D0 /* LaunchScreen.xib */,
 				3F93308F1B58AC76009224D0 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDBB5471B5E0FCC00B09F7A /* AboutViewController.swift in Sources */,
 				3F9330941B58AC76009224D0 /* ViewController.swift in Sources */,
 				3F9330921B58AC76009224D0 /* AppDelegate.swift in Sources */,
 			);
