@@ -9,15 +9,15 @@
 import UIKit
 
 class AboutViewController: UIViewController {
-    
-    @IBOutlet weak var webView:UIWebView!
+
+    @IBOutlet weak var webView: UIWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        if let htmlFile = NSBundle.mainBundle().pathForResource("BullsEye",ofType: "html") {
+
+        if let htmlFile = NSBundle.mainBundle().pathForResource("BullsEye", ofType: "html") {
             let htmlData = NSData(contentsOfFile: htmlFile)
             let baseURL = NSURL.fileURLWithPath(
             NSBundle.mainBundle().bundlePath)
@@ -29,7 +29,7 @@ class AboutViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 
     /*
     // MARK: - Navigation
@@ -40,7 +40,7 @@ class AboutViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
+
     @IBAction func close() {
         dismissViewControllerAnimated(true, completion: nil)
     }
