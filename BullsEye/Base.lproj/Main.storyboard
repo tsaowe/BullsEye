@@ -142,8 +142,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="s7W-3o-hHF">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jFW-n8-E5I">
-                                <rect key="frame" x="139" y="58" width="240" height="128"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jFW-n8-E5I">
+                                <rect key="frame" x="20" y="20" width="528" height="233"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQa-HZ-cRy">
@@ -160,6 +160,10 @@
                             <constraint firstItem="s7W-3o-hHF" firstAttribute="leading" secondItem="gCn-p2-o3E" secondAttribute="leading" id="6hM-vK-Ym5"/>
                             <constraint firstAttribute="trailing" secondItem="s7W-3o-hHF" secondAttribute="trailing" id="7bU-1x-dUa"/>
                             <constraint firstItem="iUF-t2-fmd" firstAttribute="top" secondItem="s7W-3o-hHF" secondAttribute="bottom" id="AcY-V5-4MW"/>
+                            <constraint firstItem="jFW-n8-E5I" firstAttribute="top" secondItem="I6v-uh-Xh6" secondAttribute="bottom" constant="20" id="Bpa-eM-0g6"/>
+                            <constraint firstItem="jFW-n8-E5I" firstAttribute="leading" secondItem="gCn-p2-o3E" secondAttribute="leading" constant="20" id="SWd-bp-puh"/>
+                            <constraint firstAttribute="trailing" secondItem="jFW-n8-E5I" secondAttribute="trailing" constant="20" id="ifU-Br-U6C"/>
+                            <constraint firstItem="ZQa-HZ-cRy" firstAttribute="top" secondItem="jFW-n8-E5I" secondAttribute="bottom" constant="10" id="sFX-8I-Iv3"/>
                             <constraint firstItem="s7W-3o-hHF" firstAttribute="top" secondItem="I6v-uh-Xh6" secondAttribute="bottom" id="uyH-Oc-ohg"/>
                             <constraint firstAttribute="centerX" secondItem="ZQa-HZ-cRy" secondAttribute="centerX" id="whO-60-GhX"/>
                         </constraints>
