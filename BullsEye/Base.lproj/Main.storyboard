@@ -146,8 +146,8 @@
                                 <rect key="frame" x="139" y="58" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
-                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQa-HZ-cRy">
-                                <rect key="frame" x="220" y="246" width="100" height="38"/>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQa-HZ-cRy">
+                                <rect key="frame" x="234" y="263" width="100" height="37"/>
                                 <state key="normal" title="Close!" backgroundImage="Button-Normal"/>
                                 <connections>
                                     <action selector="close" destination="mFv-rZ-kMW" eventType="touchUpInside" id="k96-mm-oYt"/>
@@ -156,10 +156,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="iUF-t2-fmd" firstAttribute="top" secondItem="ZQa-HZ-cRy" secondAttribute="bottom" constant="20" id="3xD-Zx-1Yi"/>
                             <constraint firstItem="s7W-3o-hHF" firstAttribute="leading" secondItem="gCn-p2-o3E" secondAttribute="leading" id="6hM-vK-Ym5"/>
                             <constraint firstAttribute="trailing" secondItem="s7W-3o-hHF" secondAttribute="trailing" id="7bU-1x-dUa"/>
                             <constraint firstItem="iUF-t2-fmd" firstAttribute="top" secondItem="s7W-3o-hHF" secondAttribute="bottom" id="AcY-V5-4MW"/>
                             <constraint firstItem="s7W-3o-hHF" firstAttribute="top" secondItem="I6v-uh-Xh6" secondAttribute="bottom" id="uyH-Oc-ohg"/>
+                            <constraint firstAttribute="centerX" secondItem="ZQa-HZ-cRy" secondAttribute="centerX" id="whO-60-GhX"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
