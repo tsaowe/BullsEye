@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>819B44F2-2873-49E7-BB67-4EA39EDAAA0A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>BullsEye</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C2CB7DB12B180304465EE827E565DFBB417880BB</key>
 		<string>https://github.com/tsaowe/BullsEye.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BullsEye.xcodeproj/project.xcworkspace</string>
+	<string>BullsEye.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C2CB7DB12B180304465EE827E565DFBB417880BB</key>
