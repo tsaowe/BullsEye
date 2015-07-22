@@ -15,6 +15,7 @@
 		3FDBB5471B5E0FCC00B09F7A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBB5461B5E0FCC00B09F7A /* AboutViewController.swift */; };
 		3FDBB5791B5F7C5D00B09F7A /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBB5781B5F7C5D00B09F7A /* BullsEye.html */; };
 		3FDBB57D1B5F7D1400B09F7A /* Background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBB57C1B5F7D1400B09F7A /* Background-568h@2x.png */; };
+		CC74772DA930CC5BB2E7D9DF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC7473C207069BEE83D54CCD /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3FDBB5461B5E0FCC00B09F7A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		3FDBB5781B5F7C5D00B09F7A /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../../Documents/IOS-apprentice/1.1/Resources/BullsEye.html"; sourceTree = "<group>"; };
 		3FDBB57C1B5F7D1400B09F7A /* Background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background-568h@2x.png"; sourceTree = "<group>"; };
+		CC7473C207069BEE83D54CCD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3F93308E1B58AC76009224D0 /* BullsEye */,
 				3F9330A41B58AC76009224D0 /* BullsEyeTests */,
 				3F93308D1B58AC76009224D0 /* Products */,
+				CC7473C207069BEE83D54CCD /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,6 +205,7 @@
 				3FDBB5791B5F7C5D00B09F7A /* BullsEye.html in Resources */,
 				3F9330991B58AC76009224D0 /* Images.xcassets in Resources */,
 				3FDBB57D1B5F7D1400B09F7A /* Background-568h@2x.png in Resources */,
+				CC74772DA930CC5BB2E7D9DF /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
