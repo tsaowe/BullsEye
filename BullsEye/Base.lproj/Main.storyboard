@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="1bw-Qv-FZv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="1bw-Qv-FZv">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
@@ -107,6 +107,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="1bw-Qv-FZv" secondAttribute="bottom" id="Fyo-oy-yAH"/>
+                            <constraint firstAttribute="trailing" secondItem="1bw-Qv-FZv" secondAttribute="trailing" id="S0g-S9-BMq"/>
+                            <constraint firstItem="1bw-Qv-FZv" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="tBg-UK-cBU"/>
+                            <constraint firstItem="1bw-Qv-FZv" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="vE2-fQ-ZXn"/>
+                        </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
