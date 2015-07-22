@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var roundLabel: UILabel!
+    @IBOutlet weak var caoweiButton:UIButton!
 
 
     override func viewDidLoad() {
@@ -147,6 +148,10 @@ class ViewController: UIViewController {
         transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
         view.layer.addAnimation(transition, forKey: nil)
 
+    }
+    
+    @IBAction func caowei() {
+        println("func caowei")
     }
 
 }
